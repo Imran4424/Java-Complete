@@ -15,11 +15,14 @@ class Driver {
 		} catch(Exception e) {
 			System.out.println(e);
 			
-			// resolving the exception
-			result = a / (b + 4);
+			// Generating exception in catch block
+			result = a / b;
+
+			// this code will never run
 			System.out.println("Resolved result is - " + result);
 		}
 
+		// rest of the code will never run
 		System.out.println();
 		System.out.println("this statement will run even after exception happen");
 		System.out.println("rest of the code will run even after exception happen");

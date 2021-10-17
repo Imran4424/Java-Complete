@@ -1,4 +1,5 @@
 
+
 class Driver {
 	public static void main(String[] args) {
 		int a = 100;
@@ -12,12 +13,19 @@ class Driver {
 			result = a / b;
 
 			System.out.println("this statement will never run");
+
+		// catching with multiple catch
+		// catch order is not maintained, parent exception is at first
+		// for that run will result in compile error
+		// cause after parent exception catch
 		} catch(Exception e) {
 			System.out.println(e);
-			
-			// resolving the exception
-			result = a / (b + 4);
-			System.out.println("Resolved result is - " + result);
+
+		// these catch are unnecessary
+		} catch(ArrayStoreException e) {
+			System.out.println(e);
+		} catch(ArithmeticException e) {
+			System.out.println(e);
 		}
 
 		System.out.println();

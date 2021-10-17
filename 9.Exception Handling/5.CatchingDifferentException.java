@@ -12,14 +12,13 @@ class Driver {
 			result = a / b;
 
 			System.out.println("this statement will never run");
-		} catch(Exception e) {
+
+		// catching a different exception will also cause code run fail	
+		} catch(ArrayStoreException e) {
 			System.out.println(e);
-			
-			// resolving the exception
-			result = a / (b + 4);
-			System.out.println("Resolved result is - " + result);
 		}
 
+		// rest of the code will never run
 		System.out.println();
 		System.out.println("this statement will run even after exception happen");
 		System.out.println("rest of the code will run even after exception happen");

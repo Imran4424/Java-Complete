@@ -1,4 +1,5 @@
 
+
 class Driver {
 	public static void main(String[] args) {
 		int a = 100;
@@ -12,12 +13,14 @@ class Driver {
 			result = a / b;
 
 			System.out.println("this statement will never run");
+
+		// catching with multiple catch
+		} catch(ArithmeticException e) {
+			System.out.println(e);
+		} catch(ArrayStoreException e) {
+			System.out.println(e);
 		} catch(Exception e) {
 			System.out.println(e);
-			
-			// resolving the exception
-			result = a / (b + 4);
-			System.out.println("Resolved result is - " + result);
 		}
 
 		System.out.println();

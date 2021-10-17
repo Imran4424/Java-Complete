@@ -9,7 +9,7 @@ class Driver {
 				System.out.println(args[i]);
 			}
 		} else {
-			System.out.println("No command line arguments Provied");
+			throw new IllegalArgumentException("No command line arguments Provied");
 		}
 				
 	}
