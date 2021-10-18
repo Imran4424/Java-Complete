@@ -8,6 +8,7 @@
 * Double
 * Char
 * String
+* Command Line Arguments
 * Data Type Conversion
 
 Java String in Detail
