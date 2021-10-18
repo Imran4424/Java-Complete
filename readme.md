@@ -15,6 +15,21 @@
 
 [Java Numbers in Detail](https://docs.oracle.com/javase/tutorial/java/data/numbers.html)
 
+## Operators
+
+## Conditional Logic
+
+## Control Logic
+
+## Array
+* 1D Array
+* 2D Array
+* 3D Array
+
+## String
+
+## Methods
+
 ## Class and Objects
 * Class member variable
 * Class member function
