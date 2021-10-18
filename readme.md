@@ -11,11 +11,9 @@
 * Command Line Arguments
 * Data Type Conversion
 
-Java String in Detail
- https://docs.oracle.com/javase/tutorial/java/data/strings.html
+[Java String in Detail](https://docs.oracle.com/javase/tutorial/java/data/strings.html)
 
-Java Numbers in Detail
-https://docs.oracle.com/javase/tutorial/java/data/numbers.html
+[Java Numbers in Detail](https://docs.oracle.com/javase/tutorial/java/data/numbers.html)
 
 ## Class and Objects
 * Class member variable
