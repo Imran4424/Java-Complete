@@ -1,7 +1,7 @@
 
 class Driver {
 	public static void main(String[] args) {
-		int[][] arr = new int[][]{{10, 45, 3, 8}, {2, 42}, {3, 21, 44}};
+		int[][] arr = {{10, 45, 3, 8}, {2, 42}, {3, 21, 44}};
 
 		// displaying 2D array
 		for (int i = 0; i < arr.length; i++) {
