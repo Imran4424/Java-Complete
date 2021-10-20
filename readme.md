@@ -21,14 +21,14 @@
 
 ## Control Logic
 
+## Methods
+
 ## Array
 * 1D Array
 * 2D Array
 * 3D Array
 
 ## String
-
-## Methods
 
 ## Class and Objects
 * Class member variable
