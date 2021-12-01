@@ -8,8 +8,8 @@ class MountainBike extends Bicycle {
                         int startHeight)
         {
                 // invoking base-class(Bicycle) constructor
-                //super(gear);
-                super(gear, speed);
+                super(gear);
+                //super(gear, speed);
                 seatHeight = startHeight;
         }
 

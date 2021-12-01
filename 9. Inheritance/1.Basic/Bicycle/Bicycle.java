@@ -4,8 +4,7 @@ class Bicycle {
 	public int speed;
 
 	public Bicycle(int gear) {
-		this.gear = gear;
-		speed = 0;
+		this(gear, 0);
 	}
 
 	public Bicycle(int gear, int speed)

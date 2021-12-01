@@ -66,7 +66,7 @@
 * Invoking Super class constructor
 
 
-## Interfaces
+## Abstraction
 
 ## Polymorphism
 * Method Overloading
